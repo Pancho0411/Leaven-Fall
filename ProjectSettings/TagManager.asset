@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Edge
+  - Gem
+  - pOp
+  - Platform
+  - Goal
+  - 1UP
+  - Booster
+  - MGround
+  - Ground
+  - Checkpoint
+  - CM
+  - lvl1Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - DEnemy
+  - Player
+  - MGround
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4195885041
+    locked: 0
+  - name: Floor
+    uniqueID: 3415202297
+    locked: 0
+  - name: Items
+    uniqueID: 1780953673
+    locked: 0
+  - name: Entity
+    uniqueID: 2688154195
+    locked: 0
+  - name: Player
+    uniqueID: 1189095789
+    locked: 0
+  - name: Title Card
+    uniqueID: 2705235223
+    locked: 0
