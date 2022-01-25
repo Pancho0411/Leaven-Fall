@@ -192,8 +192,28 @@ public class PlayerControllerFlip : MonoBehaviour
         }
     }
 
-    //input system boost function       MOVE ONCE ALL ACTIONS ARE WRITTEN TO ACTION SCRIPT
-    public void Boost(InputAction.CallbackContext context)
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("MGround"))
+        {
+            this.transform.parent = other.transform;
+            state = State.idle;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+
+        if (other.gameObject.CompareTag("MGround"))
+        {
+            this.transform.parent = null;
+            state = State.falling;
+        }
+
+    }
+
+        //input system boost function       MOVE ONCE ALL ACTIONS ARE WRITTEN TO ACTION SCRIPT
+        public void Boost(InputAction.CallbackContext context)
     {
         if(EP.value > 0)
         {

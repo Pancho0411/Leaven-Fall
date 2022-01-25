@@ -3014,8 +3014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d894fe91a10bb2346b60f90505cd4104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseMenuUI: {fileID: 0}
-  settingsUI: {fileID: 0}
+  pauseMenuUI: {fileID: 4946225258562396094}
+  settingsUI: {fileID: 6579072324573355827}
 --- !u!114 &2829410927152903280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3044,8 +3044,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+      - m_Target: {fileID: 7436270793026652943}
+        m_TargetAssemblyTypeName: PlayerControllerFlip, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 0
         m_Arguments:
@@ -3060,8 +3060,8 @@ MonoBehaviour:
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+      - m_Target: {fileID: 7436270793026652943}
+        m_TargetAssemblyTypeName: PlayerControllerFlip, Assembly-CSharp
         m_MethodName: Jump
         m_Mode: 0
         m_Arguments:
@@ -3096,8 +3096,8 @@ MonoBehaviour:
     m_ActionName: Player/EPower[/Keyboard/o]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
+      - m_Target: {fileID: 624363862719306427}
+        m_TargetAssemblyTypeName: PauseMenuFlip, Assembly-CSharp
         m_MethodName: Pause
         m_Mode: 0
         m_Arguments:
@@ -3151,7 +3151,19 @@ MonoBehaviour:
     m_ActionId: c56bcf19-d699-494e-9c5e-ef76fd253eea
     m_ActionName: UI/TrackedDeviceOrientation
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 624363862719306427}
+        m_TargetAssemblyTypeName: PauseMenuFlip, Assembly-CSharp
+        m_MethodName: Resume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 19521feb-5813-4260-bd3d-8eaf44d6f710
     m_ActionName: Player/Back[/Keyboard/escape,/Keyboard/backspace]
   - m_PersistentCalls:
@@ -3174,7 +3186,7 @@ MonoBehaviour:
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 5669694105897732303}
 --- !u!114 &8708071768488948223
 MonoBehaviour:
   m_ObjectHideFlags: 0
