@@ -11589,6 +11589,11 @@ PrefabInstance:
       propertyPath: m_fontColorGradient.bottomRight.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6841897399013725306, guid: c70f976785107a149ae799dbe769fe82,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -51.399902
+      objectReference: {fileID: 0}
     - target: {fileID: 6841897399270795248, guid: c70f976785107a149ae799dbe769fe82,
         type: 3}
       propertyPath: m_Name

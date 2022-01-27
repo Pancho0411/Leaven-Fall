@@ -3091,7 +3091,19 @@ MonoBehaviour:
     m_ActionId: ebfd0892-0913-458a-8c10-18a6777a0701
     m_ActionName: Player/Attack[/Keyboard/p]
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7195378900941057955}
+        m_TargetAssemblyTypeName: CombatSystem, Assembly-CSharp
+        m_MethodName: Punch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: a1ee9282-bee7-409d-accb-da9436916854
     m_ActionName: Player/EPower[/Keyboard/o]
   - m_PersistentCalls:
