@@ -18,6 +18,7 @@ MonoBehaviour:
   m_RendererData: {fileID: 0}
   m_RendererDataList:
   - {fileID: 11400000, guid: ab02122a94a94144da28f2b8155be2bd, type: 2}
+  - {fileID: 11400000, guid: 28fd1f3150f266348ad36c44972111b9, type: 2}
   m_DefaultRendererIndex: 0
   m_RequireDepthTexture: 0
   m_RequireOpaqueTexture: 0
@@ -45,7 +46,7 @@ MonoBehaviour:
   m_ShadowNormalBias: 1
   m_SoftShadowsSupported: 1
   m_UseSRPBatcher: 1
-  m_SupportsDynamicBatching: 0
+  m_SupportsDynamicBatching: 1
   m_MixedLightingSupported: 1
   m_DebugLevel: 0
   m_UseAdaptivePerformance: 1
